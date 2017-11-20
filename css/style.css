@@ -1,0 +1,244 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 6, 2017, 12:38:08 PM
+    Author     : NEUB_301_10
+*/
+body{
+    padding: 0;
+    margin: 0;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav{
+    width:100%;
+    height: 60px;  
+    margin:0;
+    padding: 0;
+    background-color:#7b5050;    
+    position: sticky;
+    top: 0;
+    z-index: 99999999999999;
+
+    
+}
+
+.logo{
+    width: 30%;
+    height: inherit;
+    float:left;  
+    font-size: 40px;
+    padding-left: 40px;
+    border-right: 2px dotted black;
+    
+
+} 
+
+.menu{
+    width:70%;
+    float:right;
+    height: inherit;
+}
+.menu ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+   
+}
+
+.menu ul li {
+    float: left;
+    height: 60px;
+
+}
+
+.menu ul li a {
+    display: block;
+    font-size:25PX;
+    color:black;
+    height: inherit;
+    text-align: center;
+    padding: 18px 21px;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #17145459;
+    border-radius: 5px;
+
+
+}
+
+/*.slider{
+    width: 100%;
+    height: 400px; 
+    background: #404449;
+
+}
+*/
+
+
+
+.news-container{
+    width:100%;
+    /* problem ache ai khaneh*/
+    background: #332e2f url(news.jpeg) ;
+    background-size: 100% 100%;
+    min-height: 1800px;
+    margin:0px;
+    padding:0px;
+
+}
+.showNews{
+    width:90%;
+    height: 1800px;  
+    margin:auto;  
+    background: linen;
+    border: 1px solid black;
+
+}
+.category{
+    background-color: maroon;
+}
+
+/*.relatedNews{
+    width:20%;
+    height: 600px;
+    float : right;
+    background: powderblue;
+}
+*/
+.politics,.sports,.campus{
+    width:80%;
+    min-height: 600px;
+    float : left;
+    border:1px dotted red;
+    text-align: center;
+
+   
+}
+.news-pic{
+    margin:5px 0px;
+}
+.related-news{
+    width:20%;
+    min-height:600px;
+    float:right;
+    text-align: center;
+    background-color: #e0cab4;
+
+}
+
+    
+.contactUS{
+    width:100%;
+    height: 400px; 
+    background: #eaded3;
+
+}
+.contactUS .outer-container{
+    width:90%;
+    margin:auto;
+}
+
+
+
+.contactUS .text-center{
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.contactUS .text-center #border-hr{
+    width: 40%;
+    height: 2px;
+    background-color: #0ab4da;
+    border-radius: 50%;
+    margin: 10px auto;
+
+
+}
+.contactUS .contact-form-container{
+    float:left;
+    /*border: 2px solid black;*/
+    width:50%;
+    padding:20px;
+}
+.contactUS .contact-form-container,.contactUS .my-address{
+    min-height: 300px;
+}
+.contactUS .my-address{
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    /*border: 2px solid green;*/
+    width: 50%;
+    padding: 48px 18px 0px 0px;
+   
+
+}
+
+.contactUS .row-1{
+    width:100%;
+    
+
+}
+
+.contactUS .col-1,.contactUS .col-2{
+    float:left;
+    width:270px;
+
+}
+.contactUS .col-1{
+    margin-right: 27px;
+}
+
+.contactUS  .row2{
+    clear:left;
+
+}
+.form-control{
+    width:100%;
+    margin: 5px 4px;
+    padding: 6px 0px;
+    border-radius: 5px;
+    background-color: #ededed;
+}
+.submit-btn{
+    float:right;
+
+}
+.btn{
+    background-color: #4286f4;
+}
+
+
+.footer{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    background-color: #000000;
+    color: white;
+    padding-top: 0px;
+    padding-bottom: -1px;
+}
+
+
+
+.my-social{
+    color: white;
+    margin: 9px 13px;
+}
+
+
+
+
